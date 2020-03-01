@@ -10,9 +10,6 @@ require  __DIR__.'/init.php';
 /**
  *    程序安装
  */
-if( empty( config('refresh_token') ) ){
-	route::any('/','AdminController@install');
-}
 
 /**
  *    系统后台
